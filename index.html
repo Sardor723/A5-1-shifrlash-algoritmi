@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A5/1 Algoritmi Shifrlash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>A5/1 Algoritmi Shifrlash</h1>
+        <label for="inputM">M qiymatini kiriting:</label>
+        <input type="number" id="inputM" placeholder="M">
+        <label for="inputK">K qiymatini kiriting:</label>
+        <input type="text" id="inputK" placeholder="K">
+        <button onclick="encrypt()">Shifrlash</button>
+        <h2>Natijalar:</h2>
+        <p><strong>K (ikkiyuzli ko'rinishda):</strong> <span id="binaryK"></span></p>
+        <p><strong>M:</strong> <span id="binaryM"></span></p>
+        <p><strong>K ⨁ M:</strong> <span id="xorResult"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
